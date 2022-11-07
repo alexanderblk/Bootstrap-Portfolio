@@ -21,120 +21,89 @@
 <body>
 
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Alexandru Dumitru</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="customNav navbar navbar-expand-lg">
+    <h1 class="navbar-brand" href="#">
+      Alexandru Dumitru
+      <i class="fa-l fa-solid fa-terminal"></i>
+    </h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Resume</a>
-        </li>
-      </ul>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link" href="#about">About Me</a>
+        <a class="nav-item nav-link" href="#skills">Skills</a>
+        <a class="nav-item nav-link" href="#contact">Contact Me</a>
+      </div>
     </div>
   </nav>
   <!-- End of Navigation Bar -->
 
   <!-- Jumbotron -->
   <div class="jumbotron">
-    <h1 class="display-4">Welcome to my Personal Portfolio</h1>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Scroll down</a>
+    <div class="jumboCopy">
+      <h1 class="display-3">Welcome to my Personal Portfolio</h1>
+      <a class="heroBtn btn btn-lg" href="#portfolio" role="button">Scroll Down</a>
+    </div>
   </div>
   <!-- End Jumbotron -->
 
   <!-- Portfolio -->
-  <div class="container-fluid">
-    <h2 class="sectionHeading">Portfolio</h2>
-    <div class="row">
+  <div class="content container-fluid">
+    <h2 class="sectionHeading" id="portfolio">Portfolio</h2>
+    <div class="myProjects row">
       <!-- Project 1 -->
-      <div class="projContainer col-lg-12 col-md-12 col-sm-12">
+      <div class="col-lg-4 col-md-4 col-sm-12">
         <div class="card">
           <img src="images/portfolio-1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Melbourne, Australia</h5>
-            <p class="card-text">Come see Slipknot unlease their new album "We Are Not Your Kind"</p>
-            <a href="#" class="btn btn-primary">Buy Tickets</a>
+          <div class="projInfo card-body">
+            <h5 class="card-title">Website Wireframe</h5>
+            <p class="card-text">Google Slides, MS Visio</p>
+            <a href="#" class="projBtn btn">View More</a>
           </div>
         </div>
       </div>
       <!-- End Project 1 -->
 
       <!-- Project 2 -->
-      <div class="projContainer col-lg-6 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-4 col-sm-12">
         <div class="card">
           <img src="images/portfolio-2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Chicago, Illinois</h5>
-            <p class="card-text">Metallica finally returns to the big stage in Chicago Illinois</p>
-            <a href="#" class="btn btn-primary">Buy Tickets</a>
+          <div class="projInfo card-body">
+            <h5 class="card-title">Web Design</h5>
+            <p class="card-text">Photoshop, Illustrator</p>
+            <a href="#" class="projBtn btn">View More</a>
           </div>
         </div>
       </div>
       <!-- End Project 2 -->
 
       <!-- Project 3 -->
-      <div class="projContainer col-lg-6 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-4 col-sm-12">
         <div class="card">
           <img src="images/portfolio-3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Long Beach, California</h5>
-            <p class="card-text">The Red Hot Chilli Peppers take the stage at the Honda Center</p>
-            <a href="#" class="btn btn-primary">Buy Tickets</a>
+          <div class="projInfo card-body">
+            <h5 class="card-title">Coding Implementation</h5>
+            <p class="card-text">GitHub, Visual Studio Code</p>
+            <a href="#" class="projBtn btn">View More</a>
           </div>
         </div>
       </div>
       <!-- End Project 3 -->
-
-      <!-- Project 4 -->
-      <div class="projContainer col-lg-6 col-md-6 col-sm-12">
-        <div class="card">
-          <img src="images/portfolio-4.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Long Beach, California</h5>
-            <p class="card-text">The Red Hot Chilli Peppers take the stage at the Honda Center</p>
-            <a href="#" class="btn btn-primary">Buy Tickets</a>
-          </div>
-        </div>
-      </div>
-      <!-- End Project 4 -->
-
-      <!-- Project 5 -->
-      <div class="projContainer col-lg-6 col-md-6 col-sm-12">
-        <div class="card">
-          <img src="images/portfolio-5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Long Beach, California</h5>
-            <p class="card-text">The Red Hot Chilli Peppers take the stage at the Honda Center</p>
-            <a href="#" class="btn btn-primary">Buy Tickets</a>
-          </div>
-        </div>
-      </div>
-      <!-- End Project 5 -->
-
     </div>
   </div>
   <!-- End cards -->
 
   <!-- About Me -->
-  <div class="container-fluid">
-    <h2 class="sectionHeading">About Me</h2>
+  <div class="content container-fluid">
+    <h2 class="sectionHeading" id="about">About Me</h2>
     <div class="row">
 
       <div class="aboutInfo col-sm-12 col-md-10 col-lg-10">
         <div>
-          <img src="images/profile-image.png" class="profileImage">
+          <img src="images/profile-image.png" width="200px" class="profileImage">
         </div>
         <div>
           <p>Hello and welcome to My Personal Portfolio Website. First of all, my name is Alex, I am originally from
@@ -156,8 +125,8 @@
   </div>
   <!-- End About Me -->
 
-  <div class="container-fluid">
-    <h2 class="sectionHeading">Skills Achieved</h2>
+  <div class="content container-fluid">
+    <h2 class="sectionHeading" id="skills">Skills Achieved</h2>
     <div class="row">
       <!-- Skill 1 -->
       <div class="skillContainer col-lg-4 col-md-4 col-sm-12">
@@ -223,35 +192,35 @@
 
   <!-- Footer -->
   <footer>
-    <div class="container-fluid">
-      <h2 class="sectionHeading">Contact Me</h2>
+    <div class="content container-fluid">
+      <h2 class="sectionHeading" id="contact">Contact Me</h2>
       <div class="row">
         <!-- GitHub -->
-      <div class="contactContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="contactInfo">
-          <i class="fa-7x fa-brands fa-github"></i>
-          <h3><a href="#">GitHub</a></h3>
+        <div class="contactContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="contactInfo">
+            <i class="fa-7x fa-brands fa-github"></i>
+            <h3><a href="#">GitHub</a></h3>
+          </div>
         </div>
-      </div>
-      <!-- End GitHub-->
+        <!-- End GitHub-->
 
-      <!-- Email -->
-      <div class="contactContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="contactInfo">
-          <i class="fa-7x fa-solid fa-envelope"></i>
-          <h3><a href="mailto:email@email.com">email@email.com</a></h3>
+        <!-- Email -->
+        <div class="contactContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="contactInfo">
+            <i class="fa-7x fa-solid fa-envelope"></i>
+            <h3><a href="mailto:email@email.com">email@email.com</a></h3>
+          </div>
         </div>
-      </div>
-      <!-- End Email-->
+        <!-- End Email-->
 
-      <!-- Phone -->
-      <div class="contactContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="contactInfo">
-          <i class="fa-7x fa-solid fa-phone"></i>
-          <h3><a href="tel:555-555-5555">555-555-5555</a></h3>
+        <!-- Phone -->
+        <div class="contactContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="contactInfo">
+            <i class="fa-7x fa-solid fa-phone"></i>
+            <h3><a href="tel:555-555-5555">555-555-5555</a></h3>
+          </div>
         </div>
-      </div>
-      <!-- End Phone -->
+        <!-- End Phone -->
       </div>
     </div>
     <h4>Proudly made by Alexandru Dumitru.</h4>

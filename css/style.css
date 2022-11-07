@@ -1,3 +1,9 @@
+:root {
+    --blue: #3587A4;
+    --yellow: #FFD639;
+    --black: #011627;
+}
+
 /* Text */
 h1,
 h2,
@@ -5,10 +11,129 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation */
+.customNav {
+    height: 70px;
+    background-color: var(--blue);
+}
+
+.navbar-brand {
+    color: white;
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    color: white;
+}
+
+.nav-item {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.nav-item:hover {
+    color: var(--yellow);
+}
+
+/* Burger Menu */
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+    background-image: url(../images/burger-menu.svg);
+}
+
+.navbar-collapse {
+    background-color: var(--blue);
+    padding-left: 20px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    border-radius: 0%;
+}
+
+.jumboCopy {
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+.heroBtn {
+    margin-top: 20px;
+    background-color: var(--blue);
+    border-color: var(--blue);
+    border-radius: 30px;
+    color: white;
+}
+
+.heroBtn:hover {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    color: black;
+}
+
+/* Portfolio */
+.sectionHeading {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border-bottom: 5px solid var(--yellow);
+    margin-bottom: 20px;
+}
+
+.content {
+    padding: 50px;
+}
+
+.myprojects {
+    padding: 0px 30px 30px 30px;
+}
+
+.projInfo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.projBtn {
+    background-color: var(--blue);
+    border-color: var(--blue);
+    border-radius: 30px;
+    color: white;
+}
+
+.projBtn:hover {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    color: black;
+}
+
+/* About Us */
