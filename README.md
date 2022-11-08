@@ -5,7 +5,7 @@ For this project, I had to recreate my personal portfolio using Bootstrap. My pe
 
 I found it very challenging to recreate the website with Bootstrap. Although it seemed fairly easy to copy and paste the snippets of code, I struggled on styling each section.
 
-URL of the live project: 
+URL of the live project: https://alexanderblk.github.io/Bootstrap-Portfolio/
 
 # Challenges
 
