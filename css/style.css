@@ -67,7 +67,7 @@ html {
 
 /* Jumbotron */
 .jumbotron {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/hero-bg.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -80,7 +80,7 @@ html {
 
 .jumboCopy {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: white;
     text-align: center;
 }
@@ -137,3 +137,54 @@ html {
 }
 
 /* About Us */
+.aboutSection {
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+}
+
+.profileImage {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.aboutText {
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.contactInfo {
+    color: white;
+    border-left: 2px solid white;
+}
+
+.contactContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+.contactContainer a {
+    padding-left: 20px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+/* Skills */
+.skillContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+}
