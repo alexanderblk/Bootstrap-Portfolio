@@ -19,13 +19,14 @@ I had multiple challenges during this project. The CTRL + S became my favourite 
 
 # The Journey
 
-1. I firstly started with the HTML code, mainly made from Bootstrap which took me a few minutes.
+1. I firstly started with the HTML code, mainly made from Bootstrap which took me a few minutes.<img width="1920" alt="First HTML Code" src="https://user-images.githubusercontent.com/115581300/200630366-947ebafd-59c2-43d8-999d-96a79b8c850c.png">
 
-2. Secondly, I have started writing the CSS to customize the Bootstarp snippets.
+2. Secondly, I have started writing the CSS to customize the Bootstarp snippets.<img width="1920" alt="CSS Code" src="https://user-images.githubusercontent.com/115581300/200630388-d48de6de-9ce9-4f45-a8b1-b785b0c9d50e.png">
 
-3. This is the HTML and CSS altogether
+3. This is the HTML and CSS altogether<img width="1920" alt="HTML and CSS" src="https://user-images.githubusercontent.com/115581300/200630416-da9ed4f9-ab87-42da-9504-27f228cb4c8d.png">
 
-4. And the final version
+4. And the final version<img width="1920" alt="Website Preview" src="https://user-images.githubusercontent.com/115581300/200630432-1424ffba-e669-420e-92be-292012d70890.png">
+
 
 # Things I learned
 
